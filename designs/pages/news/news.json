@@ -1,0 +1,13 @@
+{
+    "appPageId": "a4262f2d-6191-5ee6-ae5e-7593568bb656",
+    "appPageName": "news",
+    "componentName": "newsComponent",
+    "selectorName": "bh-news",
+    "htmlFileName": "news.template.html",
+    "tsFileName": "news.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "appPageId": "a8833fa5-29bc-32e3-2635-ea1adf60f379",
+    "appPageName": "copy",
+    "componentName": "copyComponent",
+    "selectorName": "bh-copy",
+    "htmlFileName": "copy.template.html",
+    "tsFileName": "copy.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

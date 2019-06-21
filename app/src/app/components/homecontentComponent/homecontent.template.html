@@ -1,0 +1,29 @@
+<div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+  <div fxLayout="row wrap" class="homeContent" fxFlex="100" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+    <div fxLayout="column wrap" fxFlex="80" fxLayoutAlign="space-between center" fxShow="true" fxHide="false" ngClass.xs="width100" fxFlex.xs="100">
+      <h1 ngClass.xs="bigHeadingXs" class="bigHeading">Welcome To</h1>
+      <div fxLayout="row wrap" fxFlex="60" fxLayoutAlign="center center" fxShow="true" fxHide="false"><img imgSrc="Web/Icons/logodark.png" class="welcomeImg"></div>
+      <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="space-around stretch" fxShow="true" fxHide="false">
+          <div fxLayout="row wrap" class="marginBot2em" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+            <p class="wid80margAuto">KasiDevs (<b> in full:</b> Kasi Developers) was establish on the principal philosophy of &#x2013; &#x201C;Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime. The only way to help eradicate poverty is to provide young people with skills that will best equip them for the fourth industrial revolution.</p>
+          </div>
+          <div fxLayout="row wrap" class="marginBot2em" fxLayoutAlign="center center" fxShow="true" fxHide="false"><button mat-raised-button routerLink="../about" class="blueBtns">Read More</button></div>
+        </div>
+      </div>
+      <div fxLayout="row wrap" class="homeCardsRow" fxFlex="100" fxLayoutAlign="center center" fxShow="true" fxHide="false" fxLayout.xs="column" fxLayoutAlign.xs="center center">
+        <mat-card *ngFor="let what of whatWeDo" fxLayout="column" fxLayoutAlign="space-between center" ngClass.xs="homeCardsXs" ngClass.sm="homeCardsSm" class="homeCards">
+          <mat-card-title>{{what.title}}</mat-card-title>
+
+          <img mat-card-image imgSrc="{{what.img}}">
+
+          <mat-card-content align="center">
+            <p>{{what.content}}</p>
+          </mat-card-content>
+
+          <mat-card-actions><button mat-raised-button routerLink="{{what.link}}" class="whiteBtns">Read More</button></mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

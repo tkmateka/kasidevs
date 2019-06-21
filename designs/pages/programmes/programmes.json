@@ -1,0 +1,13 @@
+{
+    "appPageId": "f4fe69ce-ecee-f6cc-cd41-fb3c32217e18",
+    "appPageName": "programmes",
+    "componentName": "programmesComponent",
+    "selectorName": "bh-programmes",
+    "htmlFileName": "programmes.template.html",
+    "tsFileName": "programmes.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

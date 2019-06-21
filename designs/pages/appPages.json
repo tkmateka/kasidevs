@@ -1,0 +1,62 @@
+{
+    "11155b06-fece-8b3d-14b5-21178ea93382": {
+        "appPageName": "home",
+        "componentName": "homeComponent",
+        "isEntry": false
+    },
+    "1a881766-7711-5b33-c6a5-cd14a0c80872": {
+        "appPageName": "about",
+        "componentName": "aboutComponent",
+        "isEntry": false
+    },
+    "f4fe69ce-ecee-f6cc-cd41-fb3c32217e18": {
+        "appPageName": "programmes",
+        "componentName": "programmesComponent",
+        "isEntry": false
+    },
+    "0541556b-f24c-172d-6581-02f9ba9f6619": {
+        "appPageName": "homecontent",
+        "componentName": "homecontentComponent",
+        "isEntry": false
+    },
+    "dc6d4b5c-2f04-7b6b-a393-1485153c822e": {
+        "appPageName": "services",
+        "componentName": "servicesComponent",
+        "isEntry": false
+    },
+    "6dd9a6a3-41e9-5fe6-83d1-8fb3f12bb6c4": {
+        "appPageName": "getinvolved",
+        "componentName": "getinvolvedComponent",
+        "isEntry": false
+    },
+    "e03eade8-9069-f178-5722-5203cf3b448e": {
+        "appPageName": "recruitment",
+        "componentName": "recruitmentComponent",
+        "isEntry": false
+    },
+    "53adcb1f-62c3-b0b1-8af8-3fd744214ba8": {
+        "appPageName": "bee",
+        "componentName": "beeComponent",
+        "isEntry": false
+    },
+    "2ff79a8f-04c6-d506-8ef4-3df69c5ab384": {
+        "appPageName": "gallary",
+        "componentName": "gallaryComponent",
+        "isEntry": false
+    },
+    "a4262f2d-6191-5ee6-ae5e-7593568bb656": {
+        "appPageName": "news",
+        "componentName": "newsComponent",
+        "isEntry": false
+    },
+    "f6e883d8-1fdc-d673-2534-20d97af9119c": {
+        "appPageName": "contact",
+        "componentName": "contactComponent",
+        "isEntry": false
+    },
+    "a8833fa5-29bc-32e3-2635-ea1adf60f379": {
+        "appPageName": "copy",
+        "componentName": "copyComponent",
+        "isEntry": false
+    }
+}

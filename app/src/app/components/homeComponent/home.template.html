@@ -1,0 +1,32 @@
+<div fxLayout="column wrap" class="mainContainer" fxLayoutAlign="space-between stretch" fxShow="true" fxHide="false">
+  <div fxLayout="row wrap" class="navBar" fxLayoutAlign="space-between stretch" fxShow="true" fxHide="false" fxLayout.md="column" ngClass.md="navBarMd" ngClass.sm="navBarSm">
+    <div fxLayout="row wrap" class="logoContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.md="logoContainerMd" ngClass.xs="logoContainerXS"><img imgSrc="Web/Icons/mainlogo.png"></div>
+    <div fxLayout="row wrap" class="navRow" fxLayoutAlign="space-between center" fxShow="true" fxHide="false" ngClass.md="navRowMd" fxShow.sm="false" fxHide.sm="true" fxShow.xs="false" fxHide.xs="true"><a class="navLinks" *ngFor="let btn of navBtns" routerLinkActive="active" routerLink="{{btn.link}}">{{btn.name}}</a></div>
+    <div fxLayout="row wrap" fxLayoutAlign="center center" fxShow="false" fxHide="true" fxShow.sm="true" fxHide.sm="false" fxShow.xs="true" fxHide.xs="false"><button mat-raised-button class="responsiveBtn" title="Main Menu" (click)="sidenav.toggle();">
+        <mat-icon>menu</mat-icon>
+      </button></div>
+  </div>
+  <div fxLayout="column wrap" class="mainConentContainer contentContainer" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.md="contentContainerMd">
+    <mat-sidenav-container componentLabel="Sidenav Container">
+      <mat-sidenav #sidenav mode="over" opened position [mode] [position] [opened]="false">
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><button mat-raised-button routerLink="{{btn.link}}" class="sidenavLinks" *ngFor="let btn of navBtns" routerLinkActive="active" (click)="sidenav.toggle();">{{btn.name}}</button></div>
+      </mat-sidenav>
+      <router-outlet componentLabel="Router Outlet"></router-outlet>
+    </mat-sidenav-container>
+  </div>
+  <div fxLayout="row wrap" class="footer" fxLayoutAlign="space-between center" fxShow="true" fxHide="false" fxLayout.xs="column">
+    <div fxLayout="column wrap" class="logoContainer" fxFlex="25" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxLayoutAlign.xs="center center" ngClass.xs="logoContainerXS marginBot2em" fxFlex.xs="80"><img imgSrc="Web/Icons/mainlogo.png" class="welcomeImg"></div>
+    <div fxLayout="row wrap" class="padLeft2em" fxFlex="50" fxLayoutAlign="space-around center" fxShow="true" fxHide="false" ngClass.sm="padLeft0emImportant" ngClass.xs="padLeft0emImportant width70" fxFlex.xs="100">
+      <div fxLayout="column wrap" fxFlex="40" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><a class="footerLinksL" *ngFor="let btn of navBtns | slice:0:5;" routerLinkActive="activeFooter" routerLink="{{btn.link}}" ngClass="smallTxt">{{btn.name | uppercase}}</a></div>
+      <div fxLayout="column wrap" fxFlex="40" fxLayoutAlign="end stretch" fxShow="true" fxHide="false"><a class="footerLinksR" *ngFor="let btn of navBtns | slice:5: navBtns.length;" routerLinkActive="activeFooter" routerLink="{{btn.link}}" ngClass.xs="textRight">{{btn.name | uppercase}}</a></div>
+    </div>
+    <div fxLayout="column wrap" fxFlex="25" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxLayoutAlign.xs="center center" ngClass.xs="wid80margAuto">
+      <h4>FOLLOW US</h4>
+      <div fxLayout="row wrap" fxLayoutAlign="space-between center" fxShow="true" fxHide="false" ngClass.xs="width70">
+        <div fxLayout="column wrap" class="socialIcons" fxLayoutAlign="space-between stretch" fxShow="true" fxHide="false" *ngFor="let icon of socialIcons">
+          <mat-icon class="{{icon}}"></mat-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

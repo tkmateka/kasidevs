@@ -1,0 +1,13 @@
+{
+    "appPageId": "53adcb1f-62c3-b0b1-8af8-3fd744214ba8",
+    "appPageName": "bee",
+    "componentName": "beeComponent",
+    "selectorName": "bh-bee",
+    "htmlFileName": "bee.template.html",
+    "tsFileName": "bee.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "appPageId": "2ff79a8f-04c6-d506-8ef4-3df69c5ab384",
+    "appPageName": "gallary",
+    "componentName": "gallaryComponent",
+    "selectorName": "bh-gallary",
+    "htmlFileName": "gallary.template.html",
+    "tsFileName": "gallary.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

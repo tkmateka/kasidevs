@@ -1,0 +1,13 @@
+{
+    "appPageId": "e03eade8-9069-f178-5722-5203cf3b448e",
+    "appPageName": "recruitment",
+    "componentName": "recruitmentComponent",
+    "selectorName": "bh-recruitment",
+    "htmlFileName": "recruitment.template.html",
+    "tsFileName": "recruitment.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

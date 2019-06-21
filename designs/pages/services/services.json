@@ -1,0 +1,13 @@
+{
+    "appPageId": "dc6d4b5c-2f04-7b6b-a393-1485153c822e",
+    "appPageName": "services",
+    "componentName": "servicesComponent",
+    "selectorName": "bh-services",
+    "htmlFileName": "services.template.html",
+    "tsFileName": "services.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

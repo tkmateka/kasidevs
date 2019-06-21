@@ -1,0 +1,64 @@
+{
+    "routes": [
+        {
+            "path": "home",
+            "component": "homeComponent",
+            "children": [
+                {
+                    "component": "homecontentComponent",
+                    "path": "''"
+                },
+                {
+                    "component": "programmesComponent",
+                    "path": "programmes"
+                },
+                {
+                    "path": "about",
+                    "component": "aboutComponent"
+                },
+                {
+                    "path": "main",
+                    "component": "homecontentComponent"
+                },
+                {
+                    "component": "servicesComponent",
+                    "path": "services"
+                },
+                {
+                    "component": "getinvolvedComponent",
+                    "path": "getinvolved"
+                },
+                {
+                    "component": "recruitmentComponent",
+                    "path": "recruitment"
+                },
+                {
+                    "component": "beeComponent",
+                    "path": "bee"
+                },
+                {
+                    "component": "gallaryComponent",
+                    "path": "gallary"
+                },
+                {
+                    "component": "newsComponent",
+                    "path": "news"
+                },
+                {
+                    "component": "contactComponent",
+                    "path": "contact"
+                }
+            ]
+        },
+        {
+            "path": "''",
+            "redirectTo": "home",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent"
+        }
+    ]
+}

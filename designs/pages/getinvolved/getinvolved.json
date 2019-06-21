@@ -1,0 +1,13 @@
+{
+    "appPageId": "6dd9a6a3-41e9-5fe6-83d1-8fb3f12bb6c4",
+    "appPageName": "getinvolved",
+    "componentName": "getinvolvedComponent",
+    "selectorName": "bh-getinvolved",
+    "htmlFileName": "getinvolved.template.html",
+    "tsFileName": "getinvolved.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}
